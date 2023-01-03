@@ -4,9 +4,9 @@ export default class Panel extends Element {
   panel;
 
   constructor() {
-    super();
-
     this.init();
+
+    super();
   }
 
   init() {
