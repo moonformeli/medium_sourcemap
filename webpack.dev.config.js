@@ -5,7 +5,6 @@ module.exports = {
   entry: {
     index: path.resolve(__dirname, 'src', 'index.js'),
     element: path.resolve(__dirname, 'src/components', 'Element.js'),
-    sum: path.resolve(__dirname, 'src/utils', 'getSum.js'),
   },
   output: {
     filename: '[name].bundle.js',
